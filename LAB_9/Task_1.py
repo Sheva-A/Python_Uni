@@ -12,7 +12,7 @@ def calculate_time_dilation(speed_fraction, time_seconds):
     return time_seconds / (1 - speed_fraction)
 
 def main():
-    print("Вітаємо у Всесвітньому калькуляторі!")
+    print("Калькулятор 'Таємниці Всесвіту'")
 
     while True:
         print("\nМеню:")
@@ -60,7 +60,7 @@ def main():
             break
 
         else:
-            print("Невірний вибір. Введіть 1, 2, 3 або 0.")
+            print("Помилка. Введіть 1, 2, 3 або 0.")
 
 if __name__ == "__main__":
     main()
