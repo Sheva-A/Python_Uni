@@ -36,7 +36,7 @@ def play_game():
             print(f"Вітаємо! Ви вгадали код {secret_code} за {attempts} спроб(у/и)!")
             break
         else:
-            print(f"{bulls} бик(и), {cows} корова(и). Спробуйте ще раз!")
+            print(f"{bulls} бик(и), {cows} корова(и). Спробуйте ще!")
 
 
 if __name__ == "__main__":
