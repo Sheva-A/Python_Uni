@@ -1,38 +1,42 @@
-import random
+import random  # Імпортуємо модуль для випадкових чисел
 
+# Генеруємо випадковий тризначний код
+code = random.randint(100, 999)
+attempts = 0  # Лічильник спроб
 
-def main():
-    code = random.randint(100, 999)
-    attempts = 0
+print("Гра почалась. У вас 5 спроб, щоб зламати код!")
 
-    print("Гра почалась. У вас 5 спроб, щоб зламати код!")
+# Цикл виконується, поки кількість спроб менш як 5
+while attempts != 5:
+    try:
+        # Користувач вводить число
+        guess = int(input("Введіть трьохзначний код: "))
 
-    while attempts != 5:
-        try:
-            guess = int(input("Введіть трьохзначний код: "))
+        # Перевірка, чи число тризначний
+        if guess < 100 or guess > 999:
+            print("Введіть ТРЬОХЗНАЧНЕ число!")
+            continue  # Пропускаємо решту ітерації, переходимо до наступної
 
-            if guess < 100 or guess > 999:
-                print("Введіть ТРЬОХЗНАЧНЕ число!")
-                continue
+        # Якщо введене число збігається з кодом
+        if guess == code:
+            print("Вітаємо! Ви зламали сейф!")
+            break  # Вихід із циклу
+        elif guess < code:
+            print("Код більший.")  # Підказка
+        else:
+            print("Код менший.")  # Підказка
 
-            if guess == code:
-                print("Вітаємо! Ви зламали сейф!")
-                return
-            elif guess < code:
-                print("Код більший.")
-            else:
-                print("Код менший.")
+    # Якщо користувач ввів не число
+    except ValueError:
+        print("Помилка: введіть лише числа!")
 
-        except ValueError:
-            print("Помилка: введіть лише числа!")
+    finally:
+        # Збільшуємо кількість спроб після кожного вводу
+        attempts += 1
 
-        finally:
-            attempts += 1
-            if attempts != 5:
-                print("Залишилось спроб:", 5-attempts)
-            else:
-                print(f"Спроби закінчилися! Код сейфу був: {code}")
-
-
-if __name__ == "__main__":
-    main()
+        # Якщо спроби ще є
+        if attempts != 5:
+            print("Залишилось спроб:", 5 - attempts)
+        else:
+            # Якщо спроби закінчились
+            print(f"Спроби закінчилися! Код сейфу був: {code}")

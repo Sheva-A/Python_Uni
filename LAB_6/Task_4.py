@@ -1,31 +1,37 @@
-def main():
-    try:
-        score = int(input("Введіть кількість набраних очок (від 0 до 100): "))
+# Програма для оцінки гравця за набраними очками
 
-        if score < 0 or score > 100:
-            raise ValueError("Некоректне введення! Кількість очок повинна бути в межах від 0 до 100.")
+try:
+    # Користувач вводить кількість очок
+    score = int(input("Введіть кількість набраних очок (від 0 до 100): "))
 
-        if 0 <= score <= 49:
-            rating = "Початківець"
-            multiplier = 1
-        elif 50 <= score <= 69:
-            rating = "Срібний гравець"
-            multiplier = 1.5
-        elif 70 <= score <= 89:
-            rating = "Золотий гравець"
-            multiplier = 2
-        elif 90 <= score <= 100:
-            rating = "Платиновий гравець"
-            multiplier = 3
+    # Перевіряємо, чи очки в допустимому діапазоні
+    if score < 0 or score > 100:
+        raise ValueError("Некоректне введення! Кількість очок повинна бути в межах від 0 до 100.")
 
-        final_score = score * multiplier
-        print(f"Ваш рейтинг: {rating}! Ви отримали {final_score} балів (множник ×{multiplier})!")
+    # Визначаємо рейтинг і множник залежно від очок
+    if 0 <= score <= 49:
+        rating = "Початківець"
+        multiplier = 1
+    elif 50 <= score <= 69:
+        rating = "Срібний гравець"
+        multiplier = 1.5
+    elif 70 <= score <= 89:
+        rating = "Золотий гравець"
+        multiplier = 2
+    elif 90 <= score <= 100:
+        rating = "Платиновий гравець"
+        multiplier = 3
 
-    except ValueError:
-        print("Помилка: введено некоректне значення. Кількість очок повинна бути цілим числом у межах від 0 до 100.")
-    finally:
-        print("Дякуємо за гру!")
+    # Обчислюємо підсумковий бал
+    final_score = score * multiplier
 
+    # Виводимо результат
+    print(f"Ваш рейтинг: {rating}! Ви отримали {final_score} балів (множник ×{multiplier})!")
 
-if __name__ == "__main__":
-    main()
+# Якщо введено неправильне значення
+except ValueError:
+    print("Помилка: введено некоректне значення. Кількість очок повинна бути цілим числом у межах від 0 до 100.")
+
+# Блок, який виконується завжди
+finally:
+    print("Дякуємо за гру!")
