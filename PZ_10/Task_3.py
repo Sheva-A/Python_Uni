@@ -14,3 +14,4 @@ else:
         return lst[0] + sum_list_recursive(lst[1:])
 
     print("Сума елементів списку:", sum_list_recursive(numbers))
+
