@@ -1,0 +1,72 @@
+[
+    {
+        "name": "iPhone 14 Pro Max",
+        "price": 49999,
+        "rating": 4.9,
+        "reviews": 250,
+        "details": "6.7\" OLED, 128 GB, A16 Bionic, 5G"
+    },
+    {
+        "name": "iPhone 13",
+        "price": 29999,
+        "rating": 4.7,
+        "reviews": 310,
+        "details": "6.1\" OLED, 128 GB, A15 Bionic, 5G"
+    },
+    {
+        "name": "iPhone SE 2022",
+        "price": 19999,
+        "rating": 4.3,
+        "reviews": 120,
+        "details": "4.7\" Retina HD, 64 GB, A15 Bionic, 4G"
+    },
+    {
+        "name": "iPhone 15",
+        "price": 41999,
+        "rating": 4.8,
+        "reviews": 180,
+        "details": "6.1\" OLED, 128 GB, A16 Bionic, 5G"
+    },
+    {
+        "name": "iPhone 12 Mini",
+        "price": 24999,
+        "rating": 4.5,
+        "reviews": 210,
+        "details": "5.4\" OLED, 64 GB, A14 Bionic, 5G"
+    },
+    {
+        "name": "iPhone 14",
+        "price": 38999,
+        "rating": 4.6,
+        "reviews": 145,
+        "details": "6.1\" OLED, 128 GB, A15 Bionic, 5G"
+    },
+    {
+        "name": "iPhone 11",
+        "price": 25999,
+        "rating": 4.4,
+        "reviews": 470,
+        "details": "6.1\" LCD, 64 GB, A13 Bionic, 4G"
+    },
+    {
+        "name": "iPhone 13 Mini",
+        "price": 27999,
+        "rating": 4.7,
+        "reviews": 215,
+        "details": "5.4\" OLED, 128 GB, A15 Bionic, 5G"
+    },
+    {
+        "name": "iPhone 12",
+        "price": 27999,
+        "rating": 4.5,
+        "reviews": 340,
+        "details": "6.1\" OLED, 64 GB, A14 Bionic, 5G"
+    },
+    {
+        "name": "iPhone XR",
+        "price": 19999,
+        "rating": 4.2,
+        "reviews": 390,
+        "details": "6.1\" LCD, 64 GB, A12 Bionic, 4G"
+    }
+]

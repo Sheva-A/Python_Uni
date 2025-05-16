@@ -1,10 +1,10 @@
 {
     "Іван": {
-        "games": 2,
-        "wins": 1
+        "games": 4,
+        "wins": 2
     },
     "Макс": {
-        "games": 3,
-        "wins": 1
+        "games": 6,
+        "wins": 2
     }
 }
