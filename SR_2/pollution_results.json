@@ -1,0 +1,194 @@
+[
+  {
+    "city": "Cherkasy",
+    "state": "Cherkasy",
+    "country": "Ukraine",
+    "aqius": 48
+  },
+  {
+    "city": "Chernivtsi",
+    "state": "Chernivtsi",
+    "country": "Ukraine",
+    "aqius": 55
+  },
+  {
+    "city": "Dnipro",
+    "state": "Dnipro",
+    "country": "Ukraine",
+    "aqius": 35
+  },
+  {
+    "city": "Ivano-Frankivsk",
+    "state": "Ivano-Frankivsk",
+    "country": "Ukraine",
+    "aqius": 18
+  },
+  {
+    "city": "Polianytsia",
+    "state": "Ivano-Frankivsk",
+    "country": "Ukraine",
+    "aqius": 22
+  },
+  {
+    "city": "Korotych",
+    "state": "Kharkiv",
+    "country": "Ukraine",
+    "aqius": 29
+  },
+  {
+    "city": "Kherson",
+    "state": "Kherson",
+    "country": "Ukraine",
+    "aqius": 27
+  },
+  {
+    "city": "Khmelnytskyi",
+    "state": "Khmelnytskyi",
+    "country": "Ukraine",
+    "aqius": 51
+  },
+  {
+    "city": "Borova",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 27
+  },
+  {
+    "city": "Chornobyl",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 32
+  },
+  {
+    "city": "Irpin",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 22
+  },
+  {
+    "city": "Khotiv",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 49
+  },
+  {
+    "city": "Kyiv",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 45
+  },
+  {
+    "city": "Mali Dmytrovychi",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 31
+  },
+  {
+    "city": "Pukhivka",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 10
+  },
+  {
+    "city": "Shevchenkove",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 12
+  },
+  {
+    "city": "Zazymia",
+    "state": "Kyiv",
+    "country": "Ukraine",
+    "aqius": 53
+  },
+  {
+    "city": "Lviv",
+    "state": "Lviv",
+    "country": "Ukraine",
+    "aqius": 17
+  },
+  {
+    "city": "Staroye Selo",
+    "state": "Lviv",
+    "country": "Ukraine",
+    "aqius": 12
+  },
+  {
+    "city": "Velyki Mosty",
+    "state": "Lviv",
+    "country": "Ukraine",
+    "aqius": 21
+  },
+  {
+    "city": "Chornomors'ke",
+    "state": "Odessa",
+    "country": "Ukraine",
+    "aqius": 48
+  },
+  {
+    "city": "Odesa",
+    "state": "Odessa",
+    "country": "Ukraine",
+    "aqius": 8
+  },
+  {
+    "city": "Oleksandrivka",
+    "state": "Odessa",
+    "country": "Ukraine",
+    "aqius": 15
+  },
+  {
+    "city": "Kremenchuk",
+    "state": "Poltava",
+    "country": "Ukraine",
+    "aqius": 33
+  },
+  {
+    "city": "Poltava",
+    "state": "Poltava",
+    "country": "Ukraine",
+    "aqius": 45
+  },
+  {
+    "city": "Rivne",
+    "state": "Rivne",
+    "country": "Ukraine",
+    "aqius": 26
+  },
+  {
+    "city": "Pochaiv",
+    "state": "Ternopil",
+    "country": "Ukraine",
+    "aqius": 51
+  },
+  {
+    "city": "Ternopil",
+    "state": "Ternopil",
+    "country": "Ukraine",
+    "aqius": 17
+  },
+  {
+    "city": "Uzhgorod",
+    "state": "Transcarpathia",
+    "country": "Ukraine",
+    "aqius": 21
+  },
+  {
+    "city": "Vinnytsia",
+    "state": "Vinnyts'ka",
+    "country": "Ukraine",
+    "aqius": 28
+  },
+  {
+    "city": "Lutsk",
+    "state": "Volyn",
+    "country": "Ukraine",
+    "aqius": 19
+  },
+  {
+    "city": "Zhytomyr",
+    "state": "Zhytomyr",
+    "country": "Ukraine",
+    "aqius": 31
+  }
+]
